@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #212121;
+    display: flex;
+    gap:2rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainHeadings{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #EDE4FF;
+    font-size: 3rem;
+}
+td{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 8rem;
+    height: 8rem;
+    color: #EDE4FF;
+    background-color: transparent;
+    /* color: #6528F7; */
+    border: none;
+    font-size: 5rem;
+    cursor: pointer;
+}
+.reset{
+    padding: 1rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: red;
+    color: #EDE4FF;
+    cursor: pointer;
+}
+.newGame{
+    padding: 1rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: green;
+    color: #EDE4FF;
+    cursor: pointer;  
+}
+.message{
+    color: #EDE4FF;
+}
+.pointsTable{
+    color: #EDE4FF;
+    font-size: 1.5rem;
+    border-collapse: separate;
+    border-spacing: 2rem 0.5rem;
+    text-align: center;
+    
+}
+.pointsHeading{
+    padding-left: 1rem;
+}
+td{
+    border: 0.5px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+.tableBox{
+    border-collapse: separate;
+    border-spacing: 0.7rem 0.5rem;
+}
