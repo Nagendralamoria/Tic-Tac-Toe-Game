@@ -19,10 +19,11 @@ How to Play
 * Two players take turns clicking on the empty squares to make a move.
 * The game announces the winner when a player has three in a row, horizontally, vertically, or diagonally.
 * If the board is full and no player has won, the game ends in a draw.
+  
 
 Folder Structure
 * index.html: The main HTML file containing the game structure.
 * style.css: CSS file for styling the game.
 * script.js: JavaScript file for game logic and DOM manipulation.
 
-![Alt text](image.png)
+![Game screen](https://github.com/Nagendralamoria/Tic-Tac-Toe-Game/assets/60883923/f20fef12-9c54-4e27-a9c7-300bdf909bf7)
